@@ -4,7 +4,7 @@ st.header("Type of Cats")
 col1,col2=st.columns(2)
 with col1:
   st.subheader("Persian Cat")
-  st.image("./Persian.jpg",caption="Persian Cat",width=300,use_column_width=True)
+  st.image("./persian.jpg",caption="persian Cat",width=300,use_column_width=True)
   st.write("Persian Cats are cute")
   with col2:
     st.subheader("Ragdoll Cat")
